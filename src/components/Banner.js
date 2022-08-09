@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Maintenace reseaux", "Accompagnement", "Polyvalence" ];
+  const toRotate = [ "Maintenance reseaux", "Accompagnement", "Polyvalence" ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,10 +57,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">DHM Engeneering</span>
-                <h1>{`Votre Entreprise`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Reseaux", "Tech", "Polyvalent" ]'><span className="wrap">{text}</span></span></h1>
+                
+                <h1>{`"Un Tremplin vers le monde professionnel"`} </h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>ici <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>Test<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
@@ -68,7 +68,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={firstimage} alt="Header Img"/>
+                  <img src="" alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
@@ -77,3 +77,4 @@ export const Banner = () => {
     </section>
   )
 }
+/*<span className="tagline">DHM Engineer</span> */

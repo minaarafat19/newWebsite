@@ -8,29 +8,30 @@ import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 import styled from "styled-components";
 import service1 from "../assets/img/service1.png";
-
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCodeBranch} from "@fortawesome/free-solid-svg-icons";
 export const Skills = () => {
 
 
   const data = [
     {
       image: service1,
-      title: "Choose Destination",
+      title: "Polyvalence",
       description: "Lorem Ipsum is simply dummy text of the printing setting",
     },
     {
       image: service1,
-      title: "Explore the Place",
+      title: "Polyvalence",
       description: "Lorem Ipsum is simply dummy text of the printing setting",
     },
     {
       image: service1,
-      title: "Start Your Journey",
+      title: "Polyvalence",
       description: "Lorem Ipsum is simply dummy text of the printing setting",
     },
     {
       image: service1,
-      title: "Let's Enjoy",
+      title: "Polyvalence",
       description: "Lorem Ipsum is simply dummy text of the printing setting",
     },
   ];
@@ -71,32 +72,51 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={service1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5></h5>
                             </div>
                             <div className="item">
                                 <img src={service1} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5></h5>
                             </div>
                             <div className="item">
                                 <img src={service1} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5></h5>
                             </div>
                             <div className="item">
                                 <img src={service1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Development</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        
+        <section className="whoAreWe">
+          
+        <div className="who"> <h3> <strong>Qui sommes <h2 className="us">Nous ?</h2></strong></h3>
+            <p className="us-text"> Fondée en 2020 par Aniss Dahmane, Ingénieur en
+              réseaux et télécommunication et Professeur des
+              écoles. DHM Engineer est une entreprise
+              spécialisé dans le consulting et les prestations
+              informatiques. Elle est composé de techniciens en
+              systèmes et réseaux de qualité et à fort potentiel
+              d'évolution.
+            </p>
+        </div>
+        
+        </section>
+        
+        
+        <h1 className="valeurs">Nos Points  <strong className="strg"> Forts</strong></h1>
        <Section id="services">
           <div className="services">
             {data.map(({ image, title, description }) => {
               return (
                 <div className="service" key={title}>
-                  <img src={image} alt="service" />
+                  <FontAwesomeIcon icon={faCodeBranch}></FontAwesomeIcon>
+                  
+<FontAwesomeIcon icon="fa-solid fa-circle-info" beatFade />
                   <h3>{title}</h3>
                   <p>{description}</p>
                 </div>
@@ -151,3 +171,4 @@ const Section = styled.section`
     }
   }
 `;
+/**<img className="background-image-left" src={colorSharp} alt="Image" /> */

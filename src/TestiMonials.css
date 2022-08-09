@@ -1,20 +1,43 @@
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
 .shadow-effect {
-    background: #fff;
-    padding: 20px;
-    border-radius: 4px;
+ 
+  background:black;
+  padding: 20px;
+   border-radius: 20px;
     text-align: center;
-    border: 1px solid #ECECEC;
+    border: 0.5px solid white;
     box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+
   }
   #shadow-effect p {
-    font-family: inherit;
+    
+    font-family: 'Centra', sans-serif !important;
     font-size: 17px;
     line-height: 1.5;
     margin: 0 0 17px 0;
     font-weight: 300;
+    color: white !important;
+    
+   
+    
   }
   .img-circle {
-    border-radius: 50%;
+    border-radius: 80%;
     vertical-align: middle;
     max-width: 90px;
     min-height: 90px;
@@ -36,6 +59,7 @@
     text-align: center;
     color: #fff;
     box-shadow: 0px 9px 18px rgba(0,0,0,0.12), 0px 5px 7px rgba(0,0,0,0.5);
+    
   }
   #customer-testimonoals .item {
     text-align: center;
@@ -44,6 +68,7 @@
     opacity: 0.2;
     transform: scale3d(0.8, 0.8, 1);
     transition: all 0.3s ease-in-out;
+
   }
   #customer-testimonoals .owl-item.active.center .item {
     opacity: 1;
