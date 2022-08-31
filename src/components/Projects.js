@@ -12,7 +12,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import service1 from "../assets/img/service1.png";
-import pro from "./../../src/assets/img/pro.jpg";
+import pro from "./../../src/assets/img/black.png";
 import pic from "./../../src/assets/img/pic.jpng.jpg";
 import pic2 from "./../../src/assets/img/pic2.png";
 import './../TestiMonials.css'
@@ -22,29 +22,24 @@ export const Projects = () => {
 
   const testiMonials = [
         {
-            name: 'Melina',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
-            address: 'Paris',
-            img:pro,
+            name: 'Mohammed Ali',
+            description: 'j´ai commencé mon aventure avec DHM Engineer en F2vrier 2022 en ayant des missions techniquement formative, ce qui m´a permis d´acquerir au et a mesure de l´experience et des excellentes bases technicien informatique',
+            address: 'Technicien',
+        
         },
         {
-            name: 'Test',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
-            address: 'Paris',
-            img: pic
+            name: 'Amina',
+            description: '',
+            address: 'Stagiaire',
+          
         },
         {
-            name: 'Test2',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
+            name: 'Moussa',
+            description: 'Anis m´a contacté lors de mon stage, je ne m´attendais pas à obtenir un emploi. Pas seulement un simple emploi, mais un projet pour devenir auto-entrepreneur en tant que Technicien systèmes et réseaux à la fin de mon stage même voir inespéré.',
             address: 'Paris',
-            img: pic2
+            
         },
-        {
-            name: 'Test3',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
-            address: 'Paris',
-            img: pro
-        },
+       
     ]
 
 
@@ -85,12 +80,12 @@ export const Projects = () => {
     {
      title: "Coordinateur",
       description: "polyvalent & Autonome",
-      imgUrl: pic2,
+      imgUrl: pro,
     },
     {
      title: "Support",
       description: "polyvalent & Autonome",
-      imgUrl: pic,
+      imgUrl: pro,
     },
     {
      title: "Admin Reseaux",
@@ -100,12 +95,12 @@ export const Projects = () => {
     {
      title: "Maintenance",
       description: "polyvalent & Autonome",
-      imgUrl: pic,
+      imgUrl: pro,
     },
     {
      title: "Technicien",
       description: "polyvalent & Autonome",
-      imgUrl: pic2,
+      imgUrl: pro,
     },
   ];
 
