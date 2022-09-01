@@ -59,22 +59,31 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 
                 <h1>{`"Un Tremplin vers le monde professionnel"`} </h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>
+                    DHM Engineer est un incubateur de talent technique visant à améliorer 
+                    l’insertion des acteurs de l’informatique dans le monde professionelle.
+                     Notre vision est d’accompagner les techniciens durant leurs parcours professionnelle à 
+                     trouver leurs voix en proposant des missions diverse et varié dans le secteur des systèmes 
+                     et réseaux.
+
+DHM Engineer est constitué d’une equipe d’expert et passioné par la réussite des projets de nos clients et partenaire.
+                  </p>
                   <button onClick={() => console.log('connect')}>Test<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+         
+        </Row>
+      </Container>
+    </section>
+  )
+}
+/*<Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <img src="" alt="Header Img"/>
                 </div>}
             </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-  )
-}
+          </Col> */
 /*<span className="tagline">DHM Engineer</span> */

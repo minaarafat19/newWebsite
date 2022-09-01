@@ -17,22 +17,23 @@ export const Skills = () => {
     {
       image: service1,
       title: "Polyvalence",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      description: "L’informatique d’aujourd’hui demande des connaissances horizontale",
     },
     {
       image: service1,
-      title: "Polyvalence",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      title: "Autonomie",
+      description: "Faire la différence chez nos clients partenaires",
     },
     {
       image: service1,
-      title: "Polyvalence",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      title: "Rigueur",
+      description: "Un des points clés de satisfaction de nos clients",
     },
     {
+      
       image: service1,
-      title: "Polyvalence",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      title: "Sérieux",
+      description: "Pour satisfaire le client",
     },
   ];
  
@@ -95,13 +96,13 @@ export const Skills = () => {
         <section className="whoAreWe">
           
         <div className="who"> <h3> <strong>Qui sommes <h2 className="us">Nous ?</h2></strong></h3>
-            <p className="us-text"> Fondée en 2020 par Aniss Dahmane, Ingénieur en
-              réseaux et télécommunication et Professeur des
-              écoles. DHM Engineer est une entreprise
-              spécialisé dans le consulting et les prestations
-              informatiques. Elle est composé de techniciens en
-              systèmes et réseaux de qualité et à fort potentiel
-              d'évolution.
+            <p className="us-text">Fondée en 2020 par Aniss DAHMANE, 
+            Ingénieur en réseaux et télécommunications et professeur des écoles. 
+            DHM Engineer est une entreprise de service numérique, constitué d’une équipe d’expert
+             /met en ouvres nos capacités dans des projets de maintenance et déploiement informatique 
+             de nos clients.
+
+
             </p>
         </div>
         

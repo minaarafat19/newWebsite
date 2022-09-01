@@ -13,8 +13,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import service1 from "../assets/img/service1.png";
 import pro from "./../../src/assets/img/black.png";
-import pic from "./../../src/assets/img/pic.jpng.jpg";
-import pic2 from "./../../src/assets/img/pic2.png";
+import pic from "./../../src/assets/img/service1.png";
+import pic2 from "./../../src/assets/img/avatargirl.png";
+import pic3 from "./../../src/assets/img/avatargarcon.png";
 import './../TestiMonials.css'
 
 
@@ -25,18 +26,21 @@ export const Projects = () => {
             name: 'Mohammed Ali',
             description: 'j´ai commencé mon aventure avec DHM Engineer en F2vrier 2022 en ayant des missions techniquement formative, ce qui m´a permis d´acquerir au et a mesure de l´experience et des excellentes bases technicien informatique',
             address: 'Technicien',
+            img: pic,
         
         },
         {
             name: 'Amina',
-            description: '',
+            description: 'Quelques semaines semaines passées dans cette entreprise m’ont permis de pouvoir acquérir un grand nombre de compétence en termes technique mais aussi en matière de valeurs et relation humaine, quelques traits de caractère que j’ai pu forger en moi.  ',
             address: 'Stagiaire',
+            img: pic2,
           
         },
         {
             name: 'Moussa',
             description: 'Anis m´a contacté lors de mon stage, je ne m´attendais pas à obtenir un emploi. Pas seulement un simple emploi, mais un projet pour devenir auto-entrepreneur en tant que Technicien systèmes et réseaux à la fin de mon stage même voir inespéré.',
             address: 'Paris',
+            img: pic3
             
         },
        
@@ -53,7 +57,7 @@ export const Projects = () => {
         margin: 0,
         autoplay: true,
         dots: true,
-        autoplayTimeout:2500,
+        autoplayTimeout:4500,
         smartSpeed: 450,
         nav: false,
         responsive: {
@@ -74,32 +78,32 @@ export const Projects = () => {
   const projects = [
     {
       title: "Technicien",
-      description: "polyvalent & Autonome",
+      description: "Des missions diverses et variées",
       imgUrl: pro,
     },
     {
-     title: "Coordinateur",
-      description: "polyvalent & Autonome",
-      imgUrl: pro,
-    },
-    {
-     title: "Support",
-      description: "polyvalent & Autonome",
-      imgUrl: pro,
-    },
-    {
-     title: "Admin Reseaux",
-      description: "polyvalent & Autonome",
+     title: "Admin Réseaux",
+      description: "Junior ou expert",
       imgUrl: pro,
     },
     {
      title: "Maintenance",
-      description: "polyvalent & Autonome",
+      description: "Assurer le fonctionnement continue des équipements informatiques",
       imgUrl: pro,
     },
     {
-     title: "Technicien",
-      description: "polyvalent & Autonome",
+     title: "Support",
+      description: "Être à l’écoute des utilisateurs",
+      imgUrl: pro,
+    },
+    {
+     title: "Déploiement",
+      description: "Assurer le changement de matériel sur site",
+      imgUrl: pro,
+    },
+    {
+     title: "Coordinateur",
+      description: "La passerelle entre la direction et les techniciens",
       imgUrl: pro,
     },
   ];
@@ -113,7 +117,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Nos propositions</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -151,7 +155,7 @@ export const Projects = () => {
                 <div className="text-center ">
                     <h3 className="sectionTitle">Ce qu'ils pensent de nous...</h3>
                 </div>
-                <p className="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                
                 <div className="row">
                     <div className="col-md-12">
                         <OwlCarousel id="customer-testimonoals" className="owl-carousel owl-theme" {...options}>

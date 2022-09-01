@@ -6,7 +6,7 @@ const TestiMonialsDetails = ({testiMonialDetail}) => {
     return (
         <div class="item">
             <div class="shadow-effect">
-             
+                <img class="img-circle" src={img} />
                 <p>{description}</p>
             </div>
             <div class="testimonial-name">
