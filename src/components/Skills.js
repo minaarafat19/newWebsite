@@ -18,6 +18,10 @@ import React, { useState, useRef, useEffect } from "react";
 import CountUp from "../components/counter";
 
 export const Skills = () => {
+  
+
+
+
   const data = [
     {
       image: service1,
@@ -115,41 +119,9 @@ export const Skills = () => {
 
         </div>
        </div>
-        <section className="whoAreWe">
-          
-        <div className="who"> <h3> <strong>Qui sommes <h2 className="us">Nous ?</h2></strong></h3>
-            <p className="us-text">Fondée en 2020 par Aniss DAHMANE, 
-            Ingénieur en réseaux et télécommunications et professeur des écoles. 
-            DHM Engineer est une entreprise de service numérique, constitué d’une équipe d’expert
-             /met en ouvres nos capacités dans des projets de maintenance et déploiement informatique 
-             de nos clients.
-
-
-            </p>
-        </div>
-        
-        </section>
-        
+       
       </div>
-      <h1 className="valeurs">Nos Points  <strong className="strg"> Forts</strong></h1>
-      <Section id="services">
-            <div className="services">
-                {data.map(({ image, title, description }) => {
-                  return (
-                    <div className="service" key={title}>
-                      <FontAwesomeIcon icon={faCodeBranch}></FontAwesomeIcon>
-                      
-                      <FontAwesomeIcon icon="fa-solid fa-circle-info" beatFade />
-                              <h3>{title}</h3>
-                              <p>{description}</p>
-                    </div>
-                  );
-                })}
-          
-
-            </div>
-            
-      </Section>
+    
          
        
 
@@ -164,11 +136,14 @@ export const Skills = () => {
             </h3>
             <p className="us-text">
               {" "}
-              Fondée en 2020 par Aniss Dahmane, Ingénieur en réseaux et
-              télécommunication et Professeur des écoles. DHM Engineer est une
-              entreprise spécialisé dans le consulting et les prestations
-              informatiques. Elle est composé de techniciens en systèmes et
-              réseaux de qualité et à fort potentiel d'évolution.
+              Fondée en 2020 par Aniss DAHMANE,
+               Ingénieur en réseaux et télécommunications 
+               et professeur des écoles. DHM Engineer est une
+                entreprise de service numérique, constitué d’une équipe d’expert
+                 /met en ouvres nos capacités dans des projets de maintenance et 
+                 déploiement informatique de nos clients.
+
+
             </p>
           </div>
         </section>

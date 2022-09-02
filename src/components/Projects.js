@@ -116,7 +116,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Nos propositions</h2>
+                <h2>Nos propositions</h2><br></br><br></br>
                 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   
@@ -165,7 +165,7 @@ export const Projects = () => {
                                         <div class="shadow-effect">
                                             <img class="img-circle" src={service1} />
 
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                            
                                         </div>
                                         <div class="testimonial-name">
                                             <h5>Rajon Rony</h5>
