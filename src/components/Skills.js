@@ -81,7 +81,7 @@ export const Skills = () => {
                   <header className="">
 
                   <h4><strong><CountUp end={+20} start={0} /></strong></h4>
-                  {""}% de techniciens actuelles</header>
+                  {""}techniciens actuelles</header>
                    <header className="nums"><h4><strong><CountUp end={250} start={0} /></strong></h4> missions réalisés en 2022</header>
                    
                  

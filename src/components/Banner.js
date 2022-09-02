@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import firstimage from "./../assets/img/firstimage.png";
-import service1 from "../assets/img/service1.png";
+import Video1 from "../assets/img/Video_Dhm.mp4";
 import logo from "../assets/img/logo.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
@@ -16,7 +16,7 @@ export const Banner = () => {
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
-
+           
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 
@@ -31,7 +31,7 @@ export const Banner = () => {
                     DHM Engineer est constitué d’une equipe d’expert et passioné par 
                     la réussite des projets de nos clients et partenaire.
                   </p>
-                  
+                   <div class="video-wrapper"> <video src={Video1}  autoPlay loop muted/></div>
               </div>}
 
              
