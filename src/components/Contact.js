@@ -8,24 +8,7 @@ import emailjs from "emailjs-com";
 import picc from "../assets/img/11-removebg-preview.png";
 import mindpic from "../assets/img/iii-removebg-preview.png";
 export const Contact = () => {
-  const formInitialDetails = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    message: ''
-  }
-  const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({});
-
-  const onFormUpdate = (category, value) => {
-      setFormDetails({
-        ...formDetails,
-        [category]: value
-      })
-  }
-
+  
   function sendEmail(e) {
     e.preventDefault();
    

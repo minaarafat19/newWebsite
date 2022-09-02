@@ -25,7 +25,7 @@ export const Projects = () => {
         {
             name: 'Mohammed Ali',
             description: 'j´ai commencé mon aventure avec DHM Engineer en F2vrier 2022 en ayant des missions techniquement formative, ce qui m´a permis d´acquerir au et a mesure de l´experience et des excellentes bases technicien informatique',
-            address: 'Technicien',
+            address: 'Coordinateur',
             img: pic,
         
         },
@@ -39,7 +39,7 @@ export const Projects = () => {
         {
             name: 'Moussa',
             description: 'Anis m´a contacté lors de mon stage, je ne m´attendais pas à obtenir un emploi. Pas seulement un simple emploi, mais un projet pour devenir auto-entrepreneur en tant que Technicien systèmes et réseaux à la fin de mon stage même voir inespéré.',
-            address: 'Paris',
+            address: 'Technicien',
             img: pic3
             
         },

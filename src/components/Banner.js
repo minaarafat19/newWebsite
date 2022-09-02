@@ -31,13 +31,26 @@ export const Banner = () => {
                     DHM Engineer est constitué d’une equipe d’expert et passioné par 
                     la réussite des projets de nos clients et partenaire.
                   </p>
-                   <div class="video-wrapper"> <video src={Video1}  autoPlay loop muted/></div>
+                   
               </div>}
 
              
             </TrackVisibility>
           </Col>
-         
+         <Col xs={12} md={6} xl={5}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__zoomIn" : ""
+                  }
+                >
+                 <div class="video-wrapper"> <video src={Video1} width= "600px" height="300px" autoPlay loop muted/></div>
+                </div>
+              )}
+            </TrackVisibility>
+
+          </Col> 
         </Row>
       </Container>
     </section>
@@ -55,7 +68,7 @@ export const Banner = () => {
                 </div>
               )}
             </TrackVisibility>
-<<<<<<< HEAD
+
           </Col> */
 /*<span className="tagline">DHM Engineer</span> */
 
