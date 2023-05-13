@@ -10,6 +10,71 @@ import TrackVisibility from "react-on-screen";
 export const Banner = () => {
   return (
     <section className="banner" id="home">
+      <h1>ENTRERPISE</h1>
+      <div class="new-page">
+        <Container>
+          <Row className="aligh-items-center">
+            <Col xs={12} md={6} xl={7}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div
+                    className={
+                      isVisible ? "animate__animated animate__fadeOut" : ""
+                    }
+                  >
+                    <div className="presentation">
+                      <h1>{`Votre confort , notre prioriteeee`} </h1>
+                      <p>
+                        un incubateur de talent technique visant à améliorer
+                        l’insertion des acteurs de l’informatique dans le monde
+                        professionelle. Notre vision est d’accompagner les
+                        techniciens durant leurs parcours professionnelle à
+                        trouver leurs voix en proposant des missions diverse et
+                        varié dans le secteur des systèmes et réseaux.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+      <div class="old-page">
+        <Container>
+          <Row className="aligh-items-center">
+            <Col xs={12} md={6} xl={7}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div
+                    className={
+                      isVisible ? "animate__animated animate__fadeOut" : ""
+                    }
+                  >
+                    <div className="presentation">
+                      <h1>{`Votre confort , notre prioriteeee`} </h1>
+                      <p>
+                        un incubateur de talent technique visant à améliorer
+                        l’insertion des acteurs de l’informatique dans le monde
+                        professionelle. Notre vision est d’accompagner les
+                        techniciens durant leurs parcours professionnelle à
+                        trouver leurs voix en proposant des missions diverse et
+                        varié dans le secteur des systèmes et réseaux.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </section>
+  );
+};
+/*  <section className="banner" id="home">
+     
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -20,7 +85,6 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeOut" : ""
                   }
                 >
-                  <div class="new-page"></div>
                   <div className="presentation">
                     <h1>{`Votre confort , notre prioriteeee`} </h1>
                     <p>
@@ -32,7 +96,6 @@ export const Banner = () => {
                       varié dans le secteur des systèmes et réseaux.
                     </p>
                   </div>
-                  <div class="old-page"></div>
                 </div>
               )}
             </TrackVisibility>
@@ -41,9 +104,7 @@ export const Banner = () => {
       </Container>
       <div class="new-page"></div>
       <div class="old-page"></div>
-    </section>
-  );
-};
+    </section>/*
 /*<Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (

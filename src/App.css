@@ -307,8 +307,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .presentation {
   margin: auto;
   padding: 50px;
-  transform: translate(40%, -60%);  
-  z-index: 2;
+  transform: translate(40%, 60%);
+  z-index: 5;
 }
 
 .banner .tagline {
