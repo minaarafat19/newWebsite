@@ -20,6 +20,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeOut" : ""
                   }
                 >
+                  <div class="new-page"></div>
                   <div className="presentation">
                     <h1>{`Votre confort , notre prioriteeee`} </h1>
                     <p>
@@ -31,12 +32,15 @@ export const Banner = () => {
                       varié dans le secteur des systèmes et réseaux.
                     </p>
                   </div>
+                  <div class="old-page"></div>
                 </div>
               )}
             </TrackVisibility>
           </Col>
         </Row>
       </Container>
+      <div class="new-page"></div>
+      <div class="old-page"></div>
     </section>
   );
 };
