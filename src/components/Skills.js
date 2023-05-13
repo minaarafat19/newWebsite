@@ -12,21 +12,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
 
-
-
 import React, { useState, useRef, useEffect } from "react";
 import CountUp from "../components/counter";
 
 export const Skills = () => {
-  
-
-
-
   const data = [
     {
       image: service1,
       title: "Polyvalence",
-      description: "L’informatique d’aujourd’hui demande des connaissances horizontale",
+      description:
+        "L’informatique d’aujourd’hui demande des connaissances horizontale",
     },
     {
       image: service1,
@@ -39,7 +34,6 @@ export const Skills = () => {
       description: "Un des points clés de satisfaction de nos clients",
     },
     {
-      
       image: service1,
       title: "Sérieux",
       description: "Pour satisfaire le client",
@@ -74,23 +68,35 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Nos Chiffres</h2>
               <div className="Affichage">
-                <header  className="nums">
-                  
+                <header className="nums">
                   <div className="container-num1">
-                    
-                  <header className="">
+                    <header className="">
+                      <h4>
+                        <strong>
+                          <CountUp end={+20} start={0} />
+                        </strong>
+                      </h4>
+                      {""}techniciens actuelles
+                    </header>
+                    <header className="nums">
+                      <h4>
+                        <strong>
+                          <CountUp end={250} start={0} />
+                        </strong>
+                      </h4>{" "}
+                      missions réalisés en 2022
+                    </header>
 
-                  <h4><strong><CountUp end={+20} start={0} /></strong></h4>
-                  {""}techniciens actuelles</header>
-                   <header className="nums"><h4><strong><CountUp end={250} start={0} /></strong></h4> missions réalisés en 2022</header>
-                   
-                 
-                  <header className="nums"> <h4><strong><CountUp end={7} start={0} /></strong></h4>Agences implantés en france
-                  métropolitaine</header>
+                    <header className="nums">
+                      {" "}
+                      <h4>
+                        <strong>
+                          <CountUp end={7} start={0} />
+                        </strong>
+                      </h4>
+                      Agences implantés en france métropolitaine
+                    </header>
                   </div>
-                 
-                  
-                 
                 </header>
               </div>
               <Carousel
@@ -116,41 +122,26 @@ export const Skills = () => {
                 </div>
               </Carousel>
             </div>
-
-        </div>
-       </div>
-       
-      </div>
-    
-         
-       
-
-       <section className="whoAreWe">
-          <div className="who">
-            {" "}
-            <h3>
-              {" "}
-              <strong>
-                Qui sommes <h2 className="us">Nous ?</h2>
-              </strong>
-            </h3>
-            <p className="us-text">
-              {" "}
-              Fondée en 2020 par Aniss DAHMANE,
-               Ingénieur en réseaux et télécommunications 
-               et professeur des écoles. DHM Engineer est une
-                entreprise de service numérique, constitué d’une équipe d’expert
-                 /met en ouvres nos capacités dans des projets de maintenance et 
-                 déploiement informatique de nos clients.
-
-
-            </p>
           </div>
-        </section>
+        </div>
+      </div>
 
-        <h1 className="valeurs">
-          Nos Points <strong className="strg"> Forts</strong>
-        </h1>
+      <section className="whoAreWe">
+        <div className="who">
+          {" "}
+          <h3>
+            {" "}
+            <strong>
+              Qui sommes <h2 className="us">Nous ?</h2>
+            </strong>
+          </h3>
+          <p className="us-text"> ooooooooooooooooooooooooooooojnno</p>
+        </div>
+      </section>
+
+      <h1 className="valeurs">
+        Nos Points <strong className="strg"> Forts</strong>
+      </h1>
       <Section id="services">
         <div className="services">
           {data.map(({ image, title, description }) => {

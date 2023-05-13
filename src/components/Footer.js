@@ -6,9 +6,9 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
-  return (
-    <footer className="footer">
-      <Container>
+  return <footer className="footer"></footer>;
+};
+/*<a href="#"><img src={navIcon1} alt="Icon" /></a> <Container>
         <Row className="align-items-center">
           <MailchimpForm />
           <Col size={12} sm={6}>
@@ -22,8 +22,4 @@ export const Footer = () => {
             <p>tesssteeeee 2022</p>
           </Col>
         </Row>
-      </Container>
-    </footer>
-  )
-}
-/*<a href="#"><img src={navIcon1} alt="Icon" /></a> */
+      </Container> */
